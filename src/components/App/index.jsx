@@ -46,6 +46,7 @@ function App() {
 
   return (
     <div className='textFontFamily'>
+      <div className='max-w-2xl mx-auto flex justify-center py-5 text-xl'>Список покупок</div>
       <div>
         {items.length ===0 && (
             <div>Ваш список покупок пуст</div>
